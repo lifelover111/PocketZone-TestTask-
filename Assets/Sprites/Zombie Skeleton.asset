@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec8da9418a6bf493e93ef4c7b7575847, type: 3}
+  m_Name: Zombie Skeleton
+  m_EditorClassIdentifier: 
+  m_SpriteBones:
+  - m_Name: bone_1
+    m_Guid: 78a12bc881e29a445bbd392c61a82389
+    m_Position: {x: 50.179157, y: 38.478825, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.7029354, w: 0.7112537}
+    m_Length: 15.378533
+    m_ParentId: -1
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278190335
+  - m_Name: bone_2
+    m_Guid: 0d566a54d07939c43b0cc69bca99b6a1
+    m_Position: {x: 15.378534, y: -0.00000010097861, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.07814199, w: 0.9969423}
+    m_Length: 9.725544
+    m_ParentId: 0
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255615
+  - m_Name: bone_3
+    m_Guid: 48a4e1a7c5ae4964b811f6c0c3d52c7c
+    m_Position: {x: 9.725543, y: 0.00000022685208, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.13898005, w: 0.9902952}
+    m_Length: 1.6382198
+    m_ParentId: 1
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255360
+  - m_Name: bone_4
+    m_Guid: eca72708268539d409e655933e15e1bc
+    m_Position: {x: 1.6382188, y: 0.00000024603912, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.066389225, w: 0.9977938}
+    m_Length: 13.607982
+    m_ParentId: 2
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294967040
+  - m_Name: bone_5
+    m_Guid: fbd91e8806593604cb07cfea83de5255
+    m_Position: {x: -0.998904, y: -5.7137985, z: 0}
+    m_Rotation: {x: 0, y: -0, z: 0.99464196, w: 0.10337966}
+    m_Length: 11.268912
+    m_ParentId: 2
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294901760
+  - m_Name: bone_6
+    m_Guid: 0c359525684f0854ba50d913756c0414
+    m_Position: {x: 11.268915, y: 0.0000030527851, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.055560917, w: 0.99845535}
+    m_Length: 12.303291
+    m_ParentId: 4
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294902015
+  - m_Name: bone_7
+    m_Guid: 4e184042ec4446441a5354439886c82e
+    m_Position: {x: -2.4773228, y: 8.830404, z: 0}
+    m_Rotation: {x: 0, y: -0, z: 0.9979363, w: 0.064211585}
+    m_Length: 10.132647
+    m_ParentId: 2
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278223103
+  - m_Name: bone_8
+    m_Guid: 90bd31c67b3a9034ea647e720b87ef0b
+    m_Position: {x: 10.132648, y: 0.0000034246323, z: 0}
+    m_Rotation: {x: 0, y: 0, z: 0.022620859, w: 0.9997442}
+    m_Length: 13.211475
+    m_ParentId: 6
+    m_Color:
+      serializedVersion: 2
+      rgba: 4278255488
+  - m_Name: bone_9
+    m_Guid: 04c66d2484917d94184cd69071f5bfc4
+    m_Position: {x: -0.3171022, y: -3.8031301, z: 0}
+    m_Rotation: {x: 0, y: -0, z: 0.9997918, w: 0.0204086}
+    m_Length: 10.326204
+    m_ParentId: 0
+    m_Color:
+      serializedVersion: 2
+      rgba: 4286643968
+  - m_Name: bone_10
+    m_Guid: 3df34b15a35dc514ead221150552215f
+    m_Position: {x: 10.326202, y: 0.0000114668765, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.0022502413, w: 0.99999756}
+    m_Length: 12.684443
+    m_ParentId: 8
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294934528
+  - m_Name: bone_11
+    m_Guid: 29863f5b6e4cfa54fb7d9e22534ba56e
+    m_Position: {x: -0.048946623, y: 4.1606703, z: 0}
+    m_Rotation: {x: 0, y: -0, z: 0.99965334, w: 0.026328696}
+    m_Length: 11.239807
+    m_ParentId: 0
+    m_Color:
+      serializedVersion: 2
+      rgba: 4294901888
+  - m_Name: bone_12
+    m_Guid: da0eb871e8b39234490505b707beb5b9
+    m_Position: {x: 11.239806, y: -0.0000022025, z: 0}
+    m_Rotation: {x: 0, y: 0, z: -0.0044818316, w: 0.99999}
+    m_Length: 12.335176
+    m_ParentId: 10
+    m_Color:
+      serializedVersion: 2
+      rgba: 4286578943
